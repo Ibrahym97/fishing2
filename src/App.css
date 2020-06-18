@@ -1,5 +1,52 @@
-.App {
+.App,
+.app-Logo  {
+  text-indent: -999999px;
+  background: url('fish-logo.jpg');
+  width: 541px;
+  height: 438px;
+  float: left;
+}
+
+.app-Header {
+
+  padding: 50px;
+   font-size: 27px;
+  list-style: none;
+  display: inline-block;
+
+}
+
+.menu-item {
+   display: inline-block;
+  float: right;
+  padding: 50px;
+  list-style: none;
+  margin-left: 70px;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 5px;
+
+
+}
+
+
+.app-Content {
   text-align: center;
+  font-size: 25px;
+  padding-top: 150px
+}
+.app-Footer {
+
+}
+.app-FooterItems {
+  display: inline-block;
+  padding: 50px;
+  list-style: none;
+  margin-right: 200px;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 5px;
+
 }
 
 .App-logo {
@@ -13,16 +60,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
